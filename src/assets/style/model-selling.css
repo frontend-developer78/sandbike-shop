@@ -1,0 +1,29 @@
+/* ----------- Start model selling content section ----------- */
+.model-selling-content h2{
+    color: darkslateblue;
+    font-weight: 900;
+}
+.model-selling-content h5{
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+.model-selling-content p{
+    font-size: 15px;
+    color: rgb(151, 151, 151);
+    line-height: 34px;
+    margin-top: 31px;
+}
+.model-selling-content a{
+    display: inline-block;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+.model-selling-content a:hover{
+    transform: scale(0.9);
+    background-color: rgb(101, 6, 190);
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.205);
+}
+/* ----------- End model selling content section ----------- */

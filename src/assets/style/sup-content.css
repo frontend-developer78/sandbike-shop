@@ -1,0 +1,13 @@
+/* ----------- Start support content section ----------- */
+.free-delivery{
+    border-left: 1px dashed #e0e0e0;
+}
+.free-delivery h6{
+    font-size: 15px;
+    font-weight: 900;
+}
+.free-delivery p{
+    font-size: 13px;
+    color: #7a7a7a;
+}
+/* ----------- End support content section ----------- */

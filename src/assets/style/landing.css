@@ -1,0 +1,39 @@
+/* ----------- Start landing start page section ----------- */
+.landing-design-section{
+    background: linear-gradient(to right, #f52c8a, #dd00ff, #6a00ff);
+    background-image: url("../img/landing-bg-3.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.landing-design-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.landing-design-section h1{
+    color: #fff;
+    font-weight: 900;
+    text-shadow: 0 0 8px #000;
+}
+.landing-design-section h4{
+    color: rgb(233, 232, 232);
+    background-color: #6a00ff;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 33px;
+}
+.landing-design-section a img{
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.829));
+    transition: all 0.3s ease;
+}
+.landing-design-section a:hover img{
+    transform: scale(0.9);
+}
+/* ----------- End landing start page section ----------- */

@@ -1,0 +1,222 @@
+/* ----------- Start navbar section ----------- */
+/* body{
+    background-image: url("../img/bg-cover.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+.navbar-brand span{
+    position: absolute;
+    top: -11px;
+    left: -15px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    transform: rotate(334deg);
+}
+.custom-bike-navbar-collapse ul li a{
+    color: rgb(136, 136, 136);
+    margin: 0 15px;
+    font-size: 15px;
+    transition: color 0.4s ease;
+}
+.custom-bike-navbar-collapse ul li a:hover{
+    color: rgb(235, 17, 100);
+}
+.custom-bike-navbar-collapse ul li a i{
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+    vertical-align: -2px;
+}
+.custom-bike-navbar-collapse ul li a i.fa-bag-shopping{
+    color: rgb(248, 24, 110);
+    font-size: 27px;
+}
+.custom-bike-navbar-collapse ul li a span{
+    position: absolute;
+    top: 25px;
+    right: -4px;
+    font-size: 11px;
+    background-color: #f3f3f3;
+    color: rgb(43, 43, 43);
+}
+/* ----------- Start navbar section ----------- */
+/* ----------- Start landing page section ----------- */
+.hero-bike-top{
+    overflow-y: hidden;
+    height: 472px;
+}
+.hero-bike-top img{
+    transform: translateY(-16%);
+}
+.hero-bike-top::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.363);
+    background: rgb(251,53,80);
+    background: radial-gradient(circle, rgba(251,53,80,1) 0%, rgba(255,0,167,1) 100%);
+    border-radius: 53% 47% 70% 30% / 49% 51% 49% 51% ;
+}
+.bike-number{
+    position: absolute;
+    top: 85px;
+    left: -83px;
+}
+.bike-number p{
+    font-size: 16px;
+    color: #a7a7a7;
+}
+.bike-number p:nth-child(3){
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 28px;
+    /* left: -90px; */
+    margin-left: -18px;
+    border-radius: 23px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.178);
+    background: radial-gradient(circle, rgba(251,53,80,1) 0%, rgba(255,0,167,1) 100%);
+}
+.scroll-section{
+    top: 460px;
+    left: -90px;
+}
+.hero-bike-botton div i{
+    font-size: 25px;
+    color: #5f5f5f;
+    margin: 0 128px;
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 100%;
+    box-shadow: 0 0 20px #0000002e;
+    background-color: #fff;
+}
+
+.bike-head-content h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+.bike-head-content p{
+  font-size: 15px;
+  color: #a7a7a7;
+}
+.bike-head-content div a{
+  font-size: 15px;
+  font-weight: 300;
+}
+.social-icon-section{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+.social-icon-section p{
+  font-size: 17px;
+  color: #242424;
+}
+.social-icon-section a i{
+  color: #363636;
+  font-size: 22px;
+  transition: all 0.4s ease;
+}
+.social-icon-section a:hover i{
+  transform: scale(1.2) translateY(-5px);
+  color: #a01df7;
+}
+/* From uiverse.io by @mrhyddenn */
+.scrolldown {
+  --color: white;
+  --sizeX: 30px;
+  --sizeY: 50px;
+  position: relative;
+  width: var(--sizeX);
+  height: var(--sizeY);
+  margin-left: var(sizeX / 2);
+  border: calc(var(--sizeX) / 10) solid var(--color);
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.scrolldown::before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: var(--color);
+  border-radius: 100%;
+  animation: scrolldown-anim 2s infinite;
+  box-sizing: border-box;
+  box-shadow: 0px -5px 3px 1px #2a547066;
+}
+
+@keyframes scrolldown-anim {
+  0% {
+    opacity: 0;
+    height: 6px;
+  }
+
+  40% {
+    opacity: 1;
+    height: 10px;
+  }
+
+  80% {
+    transform: translate(0, 20px);
+    height: 10px;
+    opacity: 0;
+  }
+
+  100% {
+    height: 3px;
+    opacity: 0;
+  }
+}
+
+.chevrons {
+  padding: 6px 0 0 0;
+  margin-left: -3px;
+  margin-top: 48px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chevrondown {
+  margin-top: -6px;
+  position: relative;
+  border: solid var(--color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+
+.chevrondown:nth-child(odd) {
+  animation: pulse54012 500ms ease infinite alternate;
+}
+
+.chevrondown:nth-child(even) {
+  animation: pulse54012 500ms ease infinite alternate 250ms;
+}
+
+@keyframes pulse54012 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.5;
+  }
+}
+/* ----------- End landing page section ----------- */

@@ -1,0 +1,76 @@
+/* ----------- Start carsoul product section ----------- */
+.product-card-header{
+    border-bottom: 1px dashed #dddddd;
+    padding-bottom: 16px;
+}
+.product-card-header h6{
+    font-size: 17px;
+    color: #353535;
+}
+.product-card-header a{
+    font-size: 14px;
+    color: rgb(114, 17, 240);
+    transition: all 0.3s ease;
+}
+.product-card-header a i{
+    transition: all 0.3s ease;
+}
+.product-card-header a:hover{
+    color: #353535;
+}
+.product-card-header a:hover i{
+    transform: translateX(-10px);
+}
+.product-card-inner{
+    background-color: #fff;
+    padding: 12px;
+}
+.product-card-inner .card-content h5{
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+}
+.product-card-inner .card-content span{
+    font-size: 14px;
+    color: #280bce;
+}
+.product-card-inner .card-content div i{
+    color: gold;
+    font-size: 14px;
+}
+.product-card-inner .card-content p{
+    font-size: 16px;
+    color: rgb(253, 31, 31);
+}
+.product-card-inner .card-content p s{
+    font-size: 13px;
+    color: #353535;
+}
+.product-card-inner .card-content a{
+    background-color: #280bce;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.product-card-inner .card-content a:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.owl-carousel .owl-nav button span{
+    position: absolute;
+    top: 44%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    font-size: 36px;
+    padding: 0px 15px;
+}
+.owl-carousel .owl-nav button:nth-child(1) span{
+    right: -40px;
+}
+.owl-carousel .owl-nav button:nth-child(2) span{
+    left: 0;
+}
+/* ----------- End carsoul product section ----------- */

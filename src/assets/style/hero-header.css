@@ -1,0 +1,226 @@
+/* ----------- Start hero header section ----------- */
+.custom-bike-carousel{
+    border-radius: 20px;
+    border: 1px solid #efefef;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 490px;
+}
+.custom-bike-carousel img{
+    transform: translateY(-20%);
+}
+.bigbike-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all 0.6s ease;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+}
+.bigbike-inner:hover .bigbike-content{
+    opacity: 1;
+}
+.bigbike-content h5{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(250, 17, 126);
+}
+.bigbike-content p{
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+    text-align: center;
+}
+.bigbike-content span{
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+}
+.bigbike-content span s{
+    font-size: 14px;
+    color: rgb(223, 9, 9);
+}
+.bigbike-content a{
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(253, 56, 56);
+    border-radius: 4px;
+    margin-right: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.bigbike-content a i{
+    transition: all 0.3s ease;
+}
+.bigbike-content a:hover{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgb(247, 2, 2);
+}
+.bigbike-content a:hover i{
+    transform: translateX(-40px);
+}
+.buttonbike-image{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    border: 1px solid #efefef;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+.buttonbike-2{
+    top: 28%;
+}
+.buttonbike-3{
+    top: 41%;
+}
+.buttonbike-4{
+    top: 54%;
+}
+.buttonbike-5{
+    top: 67%;
+}
+.anim-bike-section input{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: -1;
+    display: none;
+}
+.bigbike-inner-1{
+    opacity: 1;
+    z-index: 1;
+}
+.bike-opacity-active{
+    opacity: 1;
+    z-index: 1;
+}
+.card-bike-wrapper .card-bike-inner-1{
+    width: 100%;
+    height: 140px;
+    overflow-y: hidden;
+    border-radius: 20px;
+}
+.card-bike-wrapper .card-bike-inner-2{
+    width: 100%;
+    height: 340px;
+    overflow-y: hidden;
+    border-radius: 20px;
+}
+.card-bike-wrapper .card-bike-inner-1 img{
+    transform: translateY(-40%);
+    filter: brightness(0.6);
+}
+.card-bike-wrapper .card-bike-inner-2 button{
+    position: absolute;
+    bottom: 43px;
+    right: 92px;
+}
+.card-bike-wrapper .card-bike-inner-1 a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.card-bike-wrapper .card-bike-inner-1 a p:nth-child(1){
+    color: #f1f1f1;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.card-bike-wrapper .card-bike-inner-1 a p:nth-child(2){
+    color: #3b3b3b;
+    font-size: 15px;
+    padding: 4px 0;
+    background-color: #ffffff;
+    margin-top: 28px;
+}
+@media only screen and (max-width:992px){
+    .bigbike-content{
+        top: 60%;
+        opacity: 1;
+    }
+    .bigbike-content h5{
+        font-size: 16px;
+    }
+    .bigbike-content p{
+        font-size: 13px;
+    }
+    .bigbike-content span{
+        font-size: 15px;
+    }
+    .bigbike-content span s{
+        font-size: 12px;
+    }
+    .bigbike-content a{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+}
+
+
+/* From uiverse.io by @adamgiebl */
+.cssbuttons-io-button {
+ background: #5706cf;
+ color: white;
+ font-family: inherit;
+ padding: 0.35em;
+ padding-left: 1.2em;
+ font-size: 15px;
+ font-weight: 500;
+ border-radius: 0.9em;
+ border: none;
+ letter-spacing: 0.05em;
+ display: flex;
+ align-items: center;
+ box-shadow: inset 0 0 1.6em -0.6em #714da6;
+ overflow: hidden;
+ position: relative;
+ height: 2.8em;
+ padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+ background: white;
+ margin-left: 1em;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 2.2em;
+ width: 2.2em;
+ border-radius: 0.7em;
+ box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+ right: 0.3em;
+ transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+ width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon i{
+ width: 1.1em;
+ transition: transform 0.3s;
+ color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon i{
+ transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+ transform: scale(0.95);
+}
+.cssbuttons-io-button:focus{
+    outline: none;
+}
+/* ----------- End hero header section ----------- */

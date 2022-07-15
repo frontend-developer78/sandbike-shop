@@ -1,0 +1,25 @@
+/* ----------- Start category product section ----------- */
+.category-wrapper{
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 7px;
+    transition: all 0.4s ease;
+}
+.category-wrapper a{
+    color: blueviolet;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding: 6px;
+    transition: all 0.4s ease;
+}
+.category-wrapper:hover{
+    background-color: rgb(4, 87, 155);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.233);
+    transform: translateY(-3px);
+}
+.category-wrapper:hover a{
+    color: rgb(245, 245, 245);
+    padding: 10px 6px;
+}
+/* ----------- End category product section ----------- */
